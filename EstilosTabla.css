@@ -1,0 +1,61 @@
+body{
+  background: #ddd;
+}
+
+table{
+  display: table;
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid BLACK
+
+
+}
+caption{
+  background: #99FFFF;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: auto;
+  border: 1px solid BLACK
+
+}
+
+thead th {
+    background-color: pink;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align:center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    background-color: white;
+    text-align: center;
+}
+
+details {
+    display: block;
+}
+.about{
+  font-size: 19px;
+  font-weight: normal;
+  display: block;
+}
+p{
+  text-align: justify;
+  font-size: 17px;
+}
